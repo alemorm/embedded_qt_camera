@@ -1,0 +1,17 @@
+# Minimum CMake version required to generate
+# our build system
+cmake_minimum_required(VERSION 3.0)
+
+# Name of our Project and specify it is a C++ project
+project(nameofproject C++)
+
+# Change the output dir for the executables to bin/
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
+
+# add_executable creates executables with
+# the given name. In our case it is "nameofsourcefile"
+# and "nameofsourcefile" source files are given as parameters. 
+add_executable(nameofsourcefile src/nameofsourcefile.cpp)
+
+# Link the math.h library
+target_link_libraries(nameofsourcefile PRIVATE m)
