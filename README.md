@@ -55,7 +55,7 @@ To replicate this project, first clone the repo on both the host and the embedde
   - `conda activate embeddedqt`
 
 <!-- Links -->
-[sampleqt]: img/sampleqtwindowplant.png
+[sampleqt]: img/sampleqtwindow.png
 [qt]: https://www.qt.io/product/ui-design-tools
 [raspberrypi]: https://www.raspberrypi.org/products/raspberry-pi-3-model-b/
 [picamera]: https://www.raspberrypi.org/products/camera-module-v2/
