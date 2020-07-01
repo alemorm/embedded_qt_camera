@@ -1,6 +1,6 @@
 # Embedded Linux Project 2
 
-## Remote Camera using QT Visualization and a Raspberry Pi
+## Remote Camera QT Visualization with a Raspberry Pi
 
 ### Preliminary Design
 
@@ -8,7 +8,7 @@
 
 ## Description
 
-Testing camera and [QT] visualization remote functionality on a [Raspberry Pi 3 Model B][raspberrypi] with an [8-megapixel camera][picamera]. The Raspberry Pi takes photos of a growing houseplant over the course of a week, at a specified frequency and within a specified daylight period (e.g. 1 picture per hour from 8am to 7pm). The data is sent via TCP/IP protocol to the host device for further image processing and analysis (the file locations and timestamps are saved to a [PostgreSQL] server running on the host machine). Handcrafted features are extracted from the aggregate image data, such as brightness (mean pixel intensity) and color of the plant, which are then used to train a [linear regression model][linreg] that predicts plant growth (defined with an [image skeletonization][imageskel] method to estimate increase in plant length).
+Implementing camera and [QT] visualization remote functionality on a [Raspberry Pi 3 Model B][raspberrypi] with an [8-megapixel camera][picamera]. The Raspberry Pi takes photos of a growing houseplant over the course of a week, at a specified frequency and within a specified daylight period (e.g. 1 picture per hour from 8am to 7pm). The data is sent via TCP/IP protocol to the host device for further image processing and analysis (the file locations and timestamps are saved to a [PostgreSQL] server running on the host machine). Handcrafted features are extracted from the aggregate image data, such as brightness (mean pixel intensity) and color of the plant, which are then used to train a [linear regression model][linreg] that predicts plant growth (defined with an [image skeletonization][imageskel] method to estimate increase in plant length).
 
 ---
 
