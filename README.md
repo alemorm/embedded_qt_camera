@@ -1,4 +1,4 @@
-# Embedded Linux Test Project
+# Embedded Linux Project 2
 
 ## Remote Camera using QT Visualization and a Raspberry Pi
 
