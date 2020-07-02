@@ -48,7 +48,7 @@ To replicate this project, first clone the repo on both the host and the embedde
 
   - `cd ~/embedded_qt_camera/`
 
-- On the host device, run the python script `udp_3phase` by:
+- On the host device, run the python script `scriptname` by:
 
   - `cd ~/embedded_qt_camera/`
   - `conda env create -f environment.yml`
